@@ -126,7 +126,7 @@ section{
 
 
 
-/* header */
+/* INICIO */
 
 .header{
   opacity: px;
@@ -203,7 +203,7 @@ section{
 
 /* end */
 
-/* home */
+/* HOME */
 
 .home{
   margin-top: 65px;
@@ -236,18 +236,20 @@ section{
 
 /* end */
 
-/* banner */
+/* BANNER */
 
 .banner .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
   gap: 2rem;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
 }
 
 .banner .box-container .box{
   height: 100%;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
 }
 
 .banner .box-container .box img{
@@ -285,7 +287,7 @@ section{
 
 /* end */
 
-/* product */
+/* OUTLET */
 
 .products{
   background: var(--bg);
@@ -383,7 +385,7 @@ section{
 
 /* end */
 
-/* deliver */
+/* SATISFAÇÃO */
 .deliver{
   background-image: url(./images/download.jpeg);
   background:cover;
@@ -448,9 +450,9 @@ section{
   line-height: 1.3;
 }
 
-/* deliver end */
+/* SATISFAÇÃO end */
 
-/* featured */
+/* NEWS */
 
 .featured{
   background: var(--bg);
@@ -477,6 +479,7 @@ section{
   transform: scale(0);
   z-index: 1;
   gap: .5rem;
+  font-size: 3rem;
 }
 
 .featured .featured-slider .slide:hover .icons{
@@ -490,8 +493,8 @@ section{
   line-height: 5rem;
   text-align: center;
   background: black;
-  color: var(--white);
-  -webkit-text-stroke: 0.1rem var(--bg);
+  color: var(--black);
+  -webkit-text-stroke: 0.1rem var(--black);
   border-radius: .5rem;
   cursor: pointer;
 }
@@ -590,7 +593,7 @@ section{
 
 /* end */
 
-/* blog */
+/* PUBLICAÇÕES */
 
 .blogs{
   background: var(--bg);
