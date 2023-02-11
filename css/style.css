@@ -385,7 +385,7 @@ section{
 
 /* deliver */
 .deliver{
-  background-image: url(/store/images/download.jpeg);
+  background-image: url(./images/download.jpeg);
   background:cover;
   background-size: 100%;
 }
